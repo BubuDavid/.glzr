@@ -232,13 +232,13 @@ keybindings:
   - commands: ["shell-exec wt.exe"]
     bindings: ["alt+shift+enter"]
 
-  - commands: ["focus --workspace 2", "shell-exec chrome"]
+  - commands: ["focus --workspace 2", "shell-exec C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"]
     bindings: ["alt+g"]
 
   # Focus the next/previous workspace defined in `workspaces` config.
-  - commands: ["focus --next-workspace"]
+  - commands: ["focus --next-active-workspace"]
     bindings: ["alt+s"]
-  - commands: ["focus --prev-workspace"]
+  - commands: ["focus --prev-active-workspace"]
     bindings: ["alt+a"]
 
   # Focus the workspace that last had focus.
