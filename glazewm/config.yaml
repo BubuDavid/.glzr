@@ -102,6 +102,9 @@ workspaces:
   - name: "0"
     display_name: "Music"
     bind_to_monitor: 0
+  - name: "10"
+    display_name: "Notes"
+    bind_to_monitor: 1
 
 window_rules:
   - commands: ["ignore"]
@@ -232,7 +235,7 @@ keybindings:
   - commands: ["shell-exec wt.exe"]
     bindings: ["alt+shift+enter"]
 
-  - commands: ["focus --workspace 2", "shell-exec C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe"]
+  - commands: ["focus --workspace 2", "shell-exec firefox -p"]
     bindings: ["alt+g"]
 
   # Focus the next/previous workspace defined in `workspaces` config.
@@ -266,6 +269,8 @@ keybindings:
     bindings: ["alt+8"]
   - commands: ["focus --workspace 9"]
     bindings: ["alt+9"]
+  - commands: ["focus --workspace 10"]
+    bindings: ["alt+n"]
 
   # Move the focused window's parent workspace to a monitor in a given
   # direction.
