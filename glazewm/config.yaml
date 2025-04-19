@@ -270,7 +270,7 @@ keybindings:
   - commands: ["focus --workspace 9"]
     bindings: ["alt+9"]
   - commands: ["focus --workspace 10"]
-    bindings: ["alt+n"]
+    bindings: ["alt+o"]
 
   # Move the focused window's parent workspace to a monitor in a given
   # direction.
@@ -304,6 +304,8 @@ keybindings:
     bindings: ["alt+shift+8"]
   - commands: ["move --workspace 9", "focus --workspace 9"]
     bindings: ["alt+shift+9"]
+  - commands: ["move --workspace 10", "focus --workspace 10"]
+    bindings: ["alt+shift+o"]
 
     # Get the second monitor workspace to the first monitor.
   - commands:
