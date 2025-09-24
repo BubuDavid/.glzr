@@ -33,10 +33,10 @@ gaps:
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: "40px"
-    right: "0px"
-    bottom: "0px"
-    left: "0px"
+    top: "50px"
+    bottom: "20px"
+    right: "10px"
+    left: "10px"
 
 window_effects:
   # Visual effects to apply to the focused window.
@@ -80,31 +80,31 @@ window_behavior:
 workspaces:
   - name: "1"
     display_name: "Terminal"
-    bind_to_monitor: 1
+    bind_to_monitor: 0
   - name: "2"
     display_name: "Browser"
-    bind_to_monitor: 1
+    bind_to_monitor: 0
   - name: "3"
     display_name: "Work"
-    bind_to_monitor: 1
+    bind_to_monitor: 0
   - name: "4"
     display_name: "CG"
-    bind_to_monitor: 1
+    bind_to_monitor: 0
   - name: "5"
     display_name: "W"
-    bind_to_monitor: 1
+    bind_to_monitor: 0
   - name: "6"
   - name: "7"
   - name: "8"
   - name: "9"
     display_name: "Extra"
-    bind_to_monitor: 1
+    bind_to_monitor: 0
   - name: "0"
     display_name: "Music"
-    bind_to_monitor: 0
+    bind_to_monitor: 1
   - name: "10"
     display_name: "Notes"
-    bind_to_monitor: 1
+    bind_to_monitor: 0
 
 window_rules:
   - commands: ["ignore"]
