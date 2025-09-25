@@ -8,6 +8,41 @@
   "repositoryUrl": "",
   "widgets": [
     {
+      "name": "neobrutal",
+      "htmlPath": "./neobrutal_build/index.html",
+      "zOrder": "normal",
+      "shownInTaskbar": false,
+      "focused": false,
+      "resizable": false,
+      "transparent": true,
+      "includeFiles": ["**/**"],
+      "caching": {
+        "defaultDuration": 604800,
+        "rules": []
+      },
+      "privileges": {
+        "shellCommands": []
+      },
+      "presets": [
+        {
+          "name": "default",
+          "anchor": "top_left",
+          "offsetX": "0px",
+          "offsetY": "0px",
+          "width": "100%",
+          "height": "60px",
+          "monitorSelection": {
+            "type": "all"
+          },
+          "dockToEdge": {
+            "enabled": false,
+            "edge": null,
+            "windowMargin": "0px"
+          }
+        }
+      ]
+    },
+    {
       "name": "vanilla",
       "htmlPath": "./vanilla.html",
       "zOrder": "normal",
@@ -15,9 +50,7 @@
       "focused": false,
       "resizable": false,
       "transparent": true,
-      "includeFiles": [
-        "**/**"
-      ],
+      "includeFiles": ["**/**"],
       "caching": {
         "defaultDuration": 604800,
         "rules": []
@@ -52,9 +85,7 @@
       "focused": false,
       "resizable": false,
       "transparent": true,
-      "includeFiles": [
-        "**/**"
-      ],
+      "includeFiles": ["**/**"],
       "caching": {
         "defaultDuration": 604800,
         "rules": []
@@ -89,9 +120,7 @@
       "focused": false,
       "resizable": false,
       "transparent": false,
-      "includeFiles": [
-        "**/**"
-      ],
+      "includeFiles": ["**/**"],
       "caching": {
         "defaultDuration": 604800,
         "rules": []
