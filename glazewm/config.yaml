@@ -235,7 +235,7 @@ keybindings:
   - commands: ["shell-exec C:\\Program Files\\Alacritty\\alacritty.exe"]
     bindings: ["alt+shift+enter"]
 
-  - commands: ["focus --workspace 2", "shell-exec firefox -p"]
+  - commands: ["focus --workspace 2", "shell-exec C:\\Users\\david\\AppData\\Local\\Zen Browser\\zen.exe"]
     bindings: ["alt+g"]
 
   # Focus the next/previous workspace defined in `workspaces` config.
